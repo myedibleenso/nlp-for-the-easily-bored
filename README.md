@@ -8,9 +8,12 @@ If you fork this repo and changes are made to this repository after that, you'll
 If you clone your forked repo locally, here's how to keep your forked clone up-to-date:
   ```
     $ git remote add upstream https://github.com/myedibleenso/nlp-for-the-easily-bored
-    $ git fetch upstream  # check for updates in myedibleenso/nlp...bored
-    $ git checkout master  # checkout your own local master branch
-    $ git merge upstream/master  # pull in latest changes from myedibleenso/nlp...bored to your local master
+    # check for updates in myedibleenso/nlp...bored
+    $ git fetch upstream  
+    # checkout your own local master branch
+    $ git checkout master
+    # pull in latest changes from myedibleenso/nlp...bored to your local master
+    $ git merge upstream/master
   ```
 
 **NOTE**: _this is a work in progress. Check back later for updates..._
