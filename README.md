@@ -79,3 +79,15 @@ If you want to run/alter them locally after installing the project dependencies,
 ```python
 jupyter notebook
 ```
+
+# Resources
+
+See [resources.md](resources/resources.md) for links to NLP datasets, free courses, etc.
+
+# Questions
+
+Have a question?  See the [FAQ](faq.md).  It may have already been asked/answered.
+
+# Contributing
+
+Thanks for the help!  Take a look at [contributing.md](contributing.md)
