@@ -8,6 +8,7 @@ Please [fork this repository](https://help.github.com/articles/fork-a-repo/#fork
 # Table of Contents
 
 _NOTE: When viewing the slides, it's easiest to advance using `fn`+ Down Arrow_
+
 1. ~~NLP~~ Information Extraction for the easily bored
   - <a href="https://myedibleenso.github.io/nlp-for-the-easily-bored/slides/nlp-for-the-easily-bored.html" target="_blank">slides</a> / [notebook](notebooks/nlp-for-the-easily-bored.ipynb)
    - How do we get useful things out of a sea of text?  
