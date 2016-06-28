@@ -11869,8 +11869,9 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Goal</strong>: teach computers how to understand human language</p>
-
+<p align="center">
+    <img src="figs/umbrella.png" width=650>
+</p>
 </div>
 </div>
 </div></div></section><section>
@@ -11879,19 +11880,9 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Problems-addressed-by-NLP">Problems addressed by NLP<a class="anchor-link" href="#Problems-addressed-by-NLP">&#182;</a></h2><ul>
-<li><p>machine translation</p>
-</li>
-<li><p>text summarization</p>
-</li>
-<li><p>automatic speech recognition</p>
-</li>
-<li><p>question answering</p>
-</li>
-<li><p>$\dots$</p>
-</li>
-</ul>
-
+<p align="center">
+    <img src="figs/umbrella-nlp.png" width=1000>
+</p>
 </div>
 </div>
 </div></section></section><section><section>
@@ -11962,10 +11953,9 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><p align="center">
-    <img src="figs/state-of-nlp.jpg"></p>
-<p>&lt;/p&gt;
-<em>From Dan Jurafsky via <a href="https://twitter.com/cosminnegruseri/status/744961320655589376">https://twitter.com/cosminnegruseri/status/744961320655589376</a> </em></p>
+<p align="center">
+    <img src="figs/state-of-nlp.jpg">
+</p><p><em>From Dan Jurafsky via <a href="https://twitter.com/cosminnegruseri/status/744961320655589376">https://twitter.com/cosminnegruseri/status/744961320655589376</a> </em></p>
 
 </div>
 </div>
@@ -12041,35 +12031,42 @@ a.anchor-link {
 <h2 id="Ambiguities-abound">Ambiguities abound<a class="anchor-link" href="#Ambiguities-abound">&#182;</a></h2>
 </div>
 </div>
-</div><div class="fragment">
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><p>Words often have multiple senses</p>
-</li>
-<li><p>Homonyms</p>
-<ul>
-<li>bar, bat</li>
-</ul>
-</li>
-<li><p>Homographs</p>
-<ul>
-<li>bass</li>
-</ul>
-</li>
-<li><p>Structural ambiguities</p>
-<ul>
-<li>"I saw the boy with the telescope"</li>
-</ul>
-</li>
+<h3 id="Homonyms">Homonyms<a class="anchor-link" href="#Homonyms">&#182;</a></h3><p align="center">
+    <img src="figs/bat-homophones.png">
+</p>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Homographs">Homographs<a class="anchor-link" href="#Homographs">&#182;</a></h3><ul>
+<li>#### bass</li>
 </ul>
 
 </div>
 </div>
-</div></div></section></section><section><section>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Structural-ambiguities">Structural ambiguities<a class="anchor-link" href="#Structural-ambiguities">&#182;</a></h3><ul>
+<li>#### $\text{I saw the boy with the telescope}$</li>
+</ul>
+
+</div>
+</div>
+</div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
@@ -12084,7 +12081,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="(-most-of-NLP-is-still-unsolved-)">( <em>most of NLP is still unsolved</em> )<a class="anchor-link" href="#(-most-of-NLP-is-still-unsolved-)">&#182;</a></h3>
+<h3 id="most-of-NLP-is-still-unsolved"><em>most of NLP is still unsolved</em><a class="anchor-link" href="#most-of-NLP-is-still-unsolved">&#182;</a></h3>
 </div>
 </div>
 </div></div></section><section>
@@ -12160,18 +12157,6 @@ a.anchor-link {
 <h1 id="Why-should-I-care?">Why should I care?<a class="anchor-link" href="#Why-should-I-care?">&#182;</a></h1><ul>
 <li>Most of the data on the web is unstructured</li>
 </ul>
-
-</div>
-</div>
-</div></section><section>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Example:-LinkedIn">Example: LinkedIn<a class="anchor-link" href="#Example:-LinkedIn">&#182;</a></h2><blockquote><p>LinkedIn has a vast quantity of data. While much of the data is structured—graph nodes and edges, normalized fields in database records—a great deal of it is simply natural language text. [$\dots$]  <strong>We want to find entities, relations and economic events that correlate with and complement LinkedIn's understanding of the world's economy</strong>, so that we as a company can help every person and organization everywhere reach their fullest potential. For us, an entity is a person, an organization, a location or one of the other types of entities that LinkedIn cares about, such as a title or a skill.</p>
-</blockquote>
-<p><em> from <a href="https://engineering.linkedin.com/data/nlp">https://engineering.linkedin.com/data/nlp</a> </em></p>
 
 </div>
 </div>
@@ -12258,7 +12243,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Getting-started$\dots$">Getting started$\dots$<a class="anchor-link" href="#Getting-started$\dots$">&#182;</a></h1>
+<h1 id="Let's-look-at-some-use-cases$\dots$">Let's look at some use cases$\dots$<a class="anchor-link" href="#Let's-look-at-some-use-cases$\dots$">&#182;</a></h1>
 </div>
 </div>
 </div></section></section>
