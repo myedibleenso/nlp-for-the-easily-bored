@@ -48,7 +48,7 @@ Here you'll find a few use cases illustrating the concepts covered in the intros
   - **Challenge**: Try to populate a [Wikipedia infobox](https://en.wikipedia.org/wiki/Infobox#wikipedia) for [Barack Obama](https://en.wikipedia.org/wiki/Barack_Obama).
 3. Movie reviews
   - <a href="https://myedibleenso.github.io/nlp-for-the-easily-bored/slides/rotten-tomatoes-example.html" target="_blank">slides</a> / [notebook](notebooks/rotten-tomatoes-example.ipynb)
-  - Is it a positive or negative review?  If we don't have a score, can we tell from the review text?
+  - Is it a positive or negative review?  If we don't have a score, can we identity the sentiment and assign a score based on the review text?
   - NOTE: To really get into this example, you'll need [a rotten tomatoes developer key](http://developer.rottentomatoes.com)
   - **Challenge**: Predict critics consensus scores based only on the review text
     - Use whatever method you want
