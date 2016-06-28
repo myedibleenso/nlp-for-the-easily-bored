@@ -31,7 +31,8 @@ Here you'll find a few use cases illustrating the concepts covered in the intros
 
 2. Getting structured information out of Wikipedia pages
   - <a href="https://myedibleenso.github.io/nlp-for-the-easily-bored/slides/wikipedia-ie-example.html" target="_blank">slides</a> / [notebook](notebooks/wikipedia-ie-example.ipynb)
-  - You now know a little about how to find named entities (people, places, organizations, etc.) in text, but how do these interact in text?  - **Challenge**: Try to populate a [Wikipedia infobox](https://en.wikipedia.org/wiki/Infobox#wikipedia) for [Barack Obama](https://en.wikipedia.org/wiki/Barack_Obama).
+  - You now know a little about how to find named entities (people, places, organizations, etc.) in text, but how do these interact in text?  
+  - **Challenge**: Try to populate a [Wikipedia infobox](https://en.wikipedia.org/wiki/Infobox#wikipedia) for [Barack Obama](https://en.wikipedia.org/wiki/Barack_Obama).
 3. Movie reviews
   - <a href="https://myedibleenso.github.io/nlp-for-the-easily-bored/slides/rotten-tomatoes-example.html" target="_blank">slides</a> / [notebook](notebooks/rotten-tomatoes-example.ipynb)
   - Is it a positive or negative review?  If we don't have a score, can we tell from the review text?
