@@ -3,6 +3,19 @@ NLP/IE workshop for the Tucson Data Science meetup (6/30/2016)
 
 Please [fork this repository](https://help.github.com/articles/fork-a-repo/#fork-an-example-repository) and follow along.
 
+If you fork this repo and changes are made to this repository after that, you'll want to [sync your fork](https://help.github.com/articles/syncing-a-fork/).
+
+If you clone your forked repo locally, here's how to keep your forked clone up-to-date:
+  ```
+    $ git remote add upstream https://github.com/myedibleenso/nlp-for-the-easily-bored
+    # check for updates in myedibleenso/nlp...bored
+    $ git fetch upstream  
+    # checkout your own local master branch
+    $ git checkout master
+    # pull in latest changes from myedibleenso/nlp...bored to your local master
+    $ git merge upstream/master
+  ```
+
 **NOTE**: _this is a work in progress. Check back later for updates..._
 
 # Table of Contents
