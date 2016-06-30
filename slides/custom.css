@@ -5,3 +5,8 @@ mainly to be overridden in profile/static/custom/custom.css
 
 This will always be an empty file in IPython
 */
+.overflow{
+    overflow: auto;
+    width: 100%; /* Takes up the whole width of the slide */
+    height: 400px; /* 100% doesn't work here, 400px seems to work well with almost every resolution. */
+}
