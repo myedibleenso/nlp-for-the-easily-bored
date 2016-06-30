@@ -1,4 +1,4 @@
 bs4
 git+git://github.com/myedibleenso/snappytomato
-py-processors>=2.9
+py-processors>=2.9.3
 jupyter
