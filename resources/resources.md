@@ -12,5 +12,6 @@
   - Movie review dataset: http://www.cs.cornell.edu/people/pabo/movie-review-data/
   - text understanding: http://research.microsoft.com/en-us/um/redmond/projects/mctest/
   - relation extraction corpus: https://code.google.com/archive/p/relation-extraction-corpus/downloads
+  - syntactic n-grams, etc.: https://research.googleblog.com/2013/12/free-language-lessons-for-computers.html?m=1
   - The Language Goldmine: http://languagegoldmine.com
   - various: http://archive.ics.uci.edu/ml/datasets.html?format=&task=&att=&area=&numAtt=&numIns=&type=text&sort=nameUp&view=table
