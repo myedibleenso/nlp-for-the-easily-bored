@@ -65,10 +65,12 @@ There a couple of things you'll need to run the notebooks in this repository...
 
 ## Python dependencies via [`conda`](http://conda.pydata.org/miniconda.html)
 
-```
+```bash
 conda create -n bored python=3
 source activate bored
+# assuming you're in the "nlp-for-the-easily-bored" directory
 pip install -r requirements.txt
+# this may take a couple of minutes, as it needs to download a large file
 ```
 
 # Running the notebooks
